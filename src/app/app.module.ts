@@ -9,6 +9,8 @@ import { ProductItemListComponent } from './product-item-list/product-item-list.
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CheckoutPageComponent } from './checkout-page/checkout-page.component';
+import { CartComponent } from './cart/cart.component';
+import { OrderConfirmationComponent } from './order-confirmation/order-confirmation.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CheckoutPageComponent } from './checkout-page/checkout-page.component';
     SignInComponent,
     ProductItemListComponent,
     ProductDetailsComponent,
-    CheckoutPageComponent
+    CheckoutPageComponent,
+    CartComponent,
+    OrderConfirmationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,18 +1,15 @@
 
 <body>
-  <div>
-    <table>
-      <tr>
-        <td> <img src="https://i.ibb.co/09Lt2hz/809e02a9525b33a390557362fa13a700-sticker.png" alt="Pikachu" height="300" width="300"></td>
-        <td>  <br>
 
-        </td>
-
-        <td> <img src="https://i.ibb.co/YjHvM8h/87312aa15f0aef412610a739d7a04759-sticker.png" alt="Mewtwo" height="300" width="300"></td>
-        <td> Mewtwo <br>
-           Price: $950
-        </td>
-
-    </table>
+  <div id="checkout_form">
+      <input type="text" name="adress" placeholder="21 Pallet Town マサラタウン, Kanto" size="100"required >
+      <br>
+      <input type="text" name="payment" placeholder="Enter payment card number" size="75"required>
+      <br>
+      <input type="text" name="sec number" placeholder="Enter payment card security number" size="35" required>
+      <br>
+      <button type="button" (click)="pay()">Confirm order</button>
+  <!-- ÷ -->
   </div>
+
 </body>
