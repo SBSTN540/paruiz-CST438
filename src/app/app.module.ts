@@ -7,13 +7,15 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { ProductItemListComponent } from './product-item-list/product-item-list.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     SignInComponent,
-    ProductItemListComponent
+    ProductItemListComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
